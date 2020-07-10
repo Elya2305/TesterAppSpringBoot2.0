@@ -30,11 +30,6 @@
                 <input type="email" id="inputEmail" name="email" class="my-2 form-control" placeholder="Email address" required autofocus>
                 <label for="inputPassword" class="sr-only">Password</label>
                 <input type="password" id="inputPassword" name="password" class="my-2 form-control" placeholder="Password" required>
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
                 <br/>
                 <div class="etc-login-form">
@@ -45,6 +40,6 @@
         </div>
     </div>
 </div>
-
 </body>
+<div th:replace="~{/components/common :: js-lb}"></div>
 </html>

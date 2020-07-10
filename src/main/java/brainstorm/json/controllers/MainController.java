@@ -25,7 +25,6 @@ public class MainController {
     @Autowired
     public MainController(UserService userService) {
         this.userService = userService;
-        this.users = userService.getAllUsers();
     }
 
 
@@ -59,6 +58,7 @@ public class MainController {
 
     @GetMapping(value = {"/statistics", "/statistics/tg"})
     public String getStatistics(Model model){
+        this.users = userService.getAllUsers();
         users.sort(Comparator.comparingInt(o -> userService.totalGame((User) o)).reversed());
         totalGames = getList(userService::totalGame);
         avgScore = getList(userService::avgScore);

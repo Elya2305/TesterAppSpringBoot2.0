@@ -15,6 +15,12 @@ public class Role implements GrantedAuthority {
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "role")
     private Set<User> users;
+    public Role(String role) {
+        this.role = role;
+    }
+
+    public Role() {
+    }
 
     @Override
     public String getAuthority() {
