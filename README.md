@@ -2,8 +2,8 @@
 
 This is the 2th version of simulation of
 millionaire game! It's identical 
-to [this]("https://github.com/Elya2305/TesterAppSpringBoot")
-one (check out the [description]("https://github.com/Elya2305/TesterAppSpringBoot/blob/master/README.md")), 
+to [this](https://github.com/Elya2305/TesterAppSpringBoot)
+one (check out the [description](https://github.com/Elya2305/TesterAppSpringBoot/blob/master/README.md)), 
 BUT this time questions are given
 not from local in-memory H2 db, but
 from https://opentdb.com in json format.
