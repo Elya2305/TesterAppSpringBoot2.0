@@ -11,7 +11,7 @@ So it'll be much
 more interesting as there're random
 questions about IT.
 
-This guy made all magic: 
+This guy did all the magic: 
 ```java
 @Service
 public class JsonParseService implements ParsingService {
