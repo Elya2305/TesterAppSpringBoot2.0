@@ -1,6 +1,6 @@
 # Millionaire game 2.0.
 
-This is the 2th version of simulation of
+This is the 2th version of the simulation of
 millionaire game! It's identical 
 to [this](https://github.com/Elya2305/TesterAppSpringBoot)
 one (check out the [description](https://github.com/Elya2305/TesterAppSpringBoot/blob/master/README.md)), 
@@ -26,7 +26,7 @@ public class JsonParseService implements ParsingService {
 }
 ``` 
 For more information check out 
-this [tutorial]("https://www.baeldung.com/rest-template) 
+this [tutorial](https://www.baeldung.com/rest-template) 
 
 
 
@@ -36,4 +36,3 @@ the same. To test the project right click on class ApplicationSpringBoot > Run a
  
  Good luck :)
  
-[descriprion]: "https://github.com/Elya2305/TesterAppSpringBoot/blob/master/README.md"
